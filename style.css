@@ -141,3 +141,13 @@ img.toile{height:auto;object-fit:contain;border:0;box-shadow:none;background:non
 .mentions p{margin-bottom:12px}
 .mentions a,.copy a{text-decoration:underline;text-underline-offset:3px}
 @media (max-width:900px){.mentions{padding:32px 24px}}
+
+/* ===== Accueil : le bandeau remplit tout l'écran sous la barre de navigation ===== */
+.hero{min-height:calc(100vh - 64px);min-height:calc(100svh - 64px)}
+@media (max-width:900px){.hero{min-height:0}}
+
+/* ===== Accueil : « La galerie » + texte de Monsieur Dechewsky = un écran entier ===== */
+#galerie{display:flex;flex-direction:column;min-height:calc(100vh - 64px);min-height:calc(100svh - 64px)}
+#galerie .galerie{flex:1}
+#galerie .galerie .img{align-self:stretch;height:auto}
+@media (max-width:900px){#galerie{display:block;min-height:0}#galerie .galerie .img{align-self:auto}}
