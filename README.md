@@ -11,8 +11,3 @@ https://matlagg06.github.io/dedal-des-couleurs/
 - `style.css` : feuille de style commune à toutes les pages
 - `images/` : photos de la galerie et des œuvres
 - `sitemap.xml`, `robots.txt` : référencement
-
-## Mise en ligne sur GitHub Pages
-1. Créer un dépôt public `dedal-des-couleurs` sur github.com
-2. Y envoyer les fichiers (Add file > Upload files) en gardant le dossier `images/`
-3. Settings > Pages > Source : branche `main`, dossier `/ (root)`
