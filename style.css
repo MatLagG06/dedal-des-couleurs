@@ -151,3 +151,11 @@ img.toile{height:auto;object-fit:contain;border:0;box-shadow:none;background:non
 #galerie .galerie{flex:1}
 #galerie .galerie .img{align-self:stretch;height:auto}
 @media (max-width:900px){#galerie{display:block;min-height:0}#galerie .galerie .img{align-self:auto}}
+
+/* ===== Accueil : « Monsieur Dechewsky » en titre centré, plus grand ===== */
+.infos{grid-template-columns:1fr;gap:18px;justify-items:center;text-align:center}
+.infos .label{font-size:24px;color:var(--brun)}
+.infos p{max-width:900px}
+.infos-cols{text-align:center}
+@media (min-width:901px){.infos-cols{padding:0 64px 40px}}
+@media (max-width:520px){.infos .label{font-size:18px}}
